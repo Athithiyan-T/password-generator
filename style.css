@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #2c3e50;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container:hover{
+   outline: 4px solid #007bff;  
+}
+.container {
+  background: gainsboro;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.output input {
+  flex: 1;
+  padding: 8px;
+}
+
+.output button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.settings label {
+  display: block;
+  margin: 5px 0;
+}
+
+#generateBtn{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+  border: none;
+}
+#generateBtn:hover{
+    background-color: black;
+}
+footer{
+  background-color: white;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (min-width:350px) and (max-width:790px)
+{
+.container:hover{
+   outline: 2px solid #007bff;  
+}
+.container {
+  background: gainsboro;
+  padding: 20px;
+  width: 100px;
+  border-radius: 2px;
+} 
+h2 {
+  text-align: center;
+}
+.output {
+  display: flex;
+  margin-bottom: 8px;
+}
+.output input {
+  flex: 1;
+  padding: 8px;
+}
+.output button {
+  padding: 8px;
+  cursor: pointer;
+}
+.settings label {
+  display: block;
+  margin: 2px 0;
+}
+#generateBtn{
+  width: 50%;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+  border: none;
+}
+#generateBtn:hover{
+    background-color: black;
+}
+footer{
+  background-color: white;
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+}
