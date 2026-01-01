@@ -1,27 +1,48 @@
-🔐 Password Generator Website
+# 🔐 Password Generator Website
 
-A simple and interactive Password Generator Website built using HTML, CSS, and JavaScript.
-This is my first JavaScript-based project, created while learning JavaScript from scratch and applying core concepts in a practical way.
+A simple and interactive **Password Generator Website** built using **HTML, CSS, and JavaScript**.  
+This is my **first JavaScript-based project**, created while learning JavaScript from scratch and applying core concepts in a practical way.
 
-🚀 Project Overview
+---
 
-This project generates secure and random passwords based on user interaction.
-It helped me understand how logic, UI, and interactivity work together to build functional web tools.
+## 🚀 Project Overview
 
-🛠️ Tech Stack
+This project generates secure and random passwords based on user interaction.  
+It helped me understand how **logic, UI, and interactivity** work together to build functional web tools.
 
-HTML – Structure of the web page
+---
 
-CSS – Styling and responsive layout
+## 🛠️ Tech Stack
 
-JavaScript – Logic, interactivity, and DOM manipulation
+- **HTML** – Structure of the web page  
+- **CSS** – Styling and responsive layout  
+- **JavaScript** – Logic, interactivity, and DOM manipulation  
 
-✨ Features
+---
 
-Generate random and secure passwords
+## ✨ Features
 
-User-friendly interface
+- Generate random and secure passwords  
+- User-friendly interface  
+- Instant password generation on click  
+- Beginner-friendly and clean code structure  
 
-Instant password generation on click
+---
 
-Beginner-friendly and easy to understand code
+## 📚 What I Learned
+
+- JavaScript fundamentals  
+- DOM manipulation  
+- Event handling  
+- Randomization logic  
+- Connecting UI with JavaScript logic  
+
+---
+
+## 📂 Project Structure
+
+```bash
+password-generator/
+│── index.html
+│── style.css
+│── script.js
